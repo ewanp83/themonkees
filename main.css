@@ -11,19 +11,20 @@
 .monkees-home {
     margin:0;
     padding:0;
-    background: #fff url("../assets/images/cover2.png");
+    background: #d72235 url("../assets/images/themonkees.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
+    border: solid 1px #fff;
     display: flex;
-    min-height: 192px;
+    min-height: 75px;
 }
 
 .the-band {
     background-color: #d72235;
-    min-height: 192px;
+    min-height:  75px;
     border: solid 1px #fff;
-    color: #fff;
+    color: #ffcc00;
     display: flex;
     padding-left: 45px;
     align-items: center;
@@ -33,9 +34,9 @@
 
 .the-music {
     background-color: #d72235;
-    min-height: 192px;
+    min-height:  75px;
     border: solid 1px #fff;
-    color: #fff;
+    color: #ffcc00;
     display: flex;
     padding-left: 45px;
     align-items: center;
@@ -45,9 +46,9 @@
 
 .book-the-band {
     background-color: #d72235;
-    min-height: 192px;
+    min-height:  75px;
     border: solid 1px #fff;
-    color: #fff;
+    color: #ffcc00;
     display: flex;
     padding-left: 45px;
     align-items: center;
@@ -58,12 +59,12 @@
 /*-----------------------------------------------------------------Homepage---------------------------------*/
 
 .index-main-background {
-    margin-top: 192px;
+    margin-top:  75px;
     background: #ff6600 url("../assets/images/monkees.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    min-height: 450px;
+    min-height: 500px;
 }
 
 /*-----------------------------------------------------------------The Band----------------------------------*/
@@ -72,7 +73,43 @@
 
 /*-----------------------------------------------------------------The Music---------------------------------*/
 
+.themusic-main-background {
+    margin-top: 75px;
+    background-color: #ff6600;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 450px;
+}
 
+.video {
+    margin-top: 20px;
+    margin-left: -10px;
+    padding:10px;
+    text-align: center;
+    font-family: "lobster", cursive;
+    font-size: 20px;
+    color: #fff;
+}
+
+.audio {
+    margin: 0px;
+    padding-top: 10px;
+    padding-left: 200px;
+}
+
+.controls {
+    display:inline-block;
+    background-color: #ff6600;
+
+}
+
+.songtitle {
+    text-align: center;
+    font-family: "lobster", cursive;
+    font-size: 20px;
+    color: #fff;
+}
 
 /*-----------------------------------------------------------------Book The Band-----------------------------*/
 
@@ -83,8 +120,9 @@
 .footer-bar p {
     background-color: #d72235;
     height: 75px;
-    color: #fff;
+    color: #ffcc00;
     display: flex;
+    margin:0;
     padding-left: 200px;
     align-items: center;
     font-family: "lobster", cursive;
@@ -96,11 +134,11 @@
 }
 
 .fa {
-    color:#fff;
+    color:#ffcc00;
 }
 
 .fa:hover {
-    color: #ffcc00;
+    color: #fff;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
