@@ -1,0 +1,108 @@
+/*-----------------------------------------------------------------Navbar---------------------------------*/
+
+.nav-headers {    
+    overflow: hidden;
+    position: fixed;
+    top: 0; 
+    width: 100%;
+    z-index: 999;
+}
+
+.monkees-home {
+    margin:0;
+    padding:0;
+    background: #fff url("../assets/images/cover2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    min-height: 192px;
+}
+
+.the-band {
+    background-color: #d72235;
+    min-height: 192px;
+    border: solid 1px #fff;
+    color: #fff;
+    display: flex;
+    padding-left: 45px;
+    align-items: center;
+    font-family: "lobster", cursive;
+    font-size: 3em;
+}
+
+.the-music {
+    background-color: #d72235;
+    min-height: 192px;
+    border: solid 1px #fff;
+    color: #fff;
+    display: flex;
+    padding-left: 45px;
+    align-items: center;
+    font-family: "lobster", cursive;
+    font-size: 3em;
+}
+
+.book-the-band {
+    background-color: #d72235;
+    min-height: 192px;
+    border: solid 1px #fff;
+    color: #fff;
+    display: flex;
+    padding-left: 45px;
+    align-items: center;
+    font-family: "lobster", cursive;
+    font-size: 3em;
+}
+
+/*-----------------------------------------------------------------Homepage---------------------------------*/
+
+.index-main-background {
+    margin-top: 192px;
+    background: #ff6600 url("../assets/images/monkees.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 450px;
+}
+
+/*-----------------------------------------------------------------The Band----------------------------------*/
+
+
+
+/*-----------------------------------------------------------------The Music---------------------------------*/
+
+
+
+/*-----------------------------------------------------------------Book The Band-----------------------------*/
+
+
+
+/* ----------------------------------------------------------------Footer------------------------------------*/
+
+.footer-bar p {
+    background-color: #d72235;
+    height: 75px;
+    color: #fff;
+    display: flex;
+    padding-left: 200px;
+    align-items: center;
+    font-family: "lobster", cursive;
+    font-size: 3em
+}
+
+.social-link {
+    margin-left:50px;
+}
+
+.fa {
+    color:#fff;
+}
+
+.fa:hover {
+    color: #ffcc00;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
